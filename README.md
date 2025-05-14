@@ -37,13 +37,17 @@ flask run
 analytics_dashboard/
 ├── app/
 │   ├── __init__.py
-│   ├── models/
-│   ├── routes/
-│   ├── services/
-│   └── utils/
+│   ├── app.py/
+│   ├── models.py/
+│   ├── routes.py/
+│   ├── services.py/
 ├── migrations/
+├── tests/
+├── __init__.py
+├── .coverage
 ├── .env
-├── .env.example
 ├── config.py
 └── requirements.txt
+├── run.py
+├── setup.py
 ``` 
